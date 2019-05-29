@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr-FR">
+    <head>
+        <title>Casques Nolark : Présentation de la team !</title>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Prénom Nom" />
+        <meta name="description" content="Découvrez des casques moto dépassant même les exigences des tests de sécurité. Tous les casques Nolark au meilleur prix et avec en prime la livraison gratuite !" />
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="../css/simulateur.css" />
+        <link rel="stylesheet" href="../css/team.css" />
+        <script src="../js/simulation.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.php">Accueil</a></li>
+                    <li><a href="route.html">Route</a></li>
+                    <li><a href="cross.html">Cross</a></li>
+                    <li><a href="piste.html">Piste</a></li>
+                    <li><a href="enfants.html">Enfants</a></li>
+                    <li><a href="team.html">La Team</a></li>
+                    <li><a href="nous-contacter.html">Nous contacter</a></li>
+                    <li><a href="simulateur.html">Simulateur</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br />
+        <section id="formulaire">
+            <form id="form_contact" name="form_contact" action="">
+                <fieldset id="coordo">
+                    <legend>Simulateur</legend>
+                    <div><label for="#num_ancien">Années d'ancienneté :</label> <input type="number" name="anciennete" id="anciennete" min="0" max="100" /><div class="input-change"></div></div>
+                    <div><label for="#num_S20">Casques S20 vendus :</label> <input type="number" name="S20" id="S20" min="0" max="999" /><div class="input-change"></div></div>
+                    <div><label for="#num_xspirit">Casques X-Spirit vendus :</label> <input type="number" name="XSpirit" id="XSpirit" min="0" max="500" /><div class="input-change"></div></div>
+                    <div><label for="#num_multi">Casques Multitec vendus :</label> <input type="number" name="Multitec" id="Multitec" min="0" max="500" /><div class="input-change"></div></div>
+                    <div><label for="#total">Total :</label> <input type="text" name="total" id="total" disabled="disabled" />
+                    <p id="controles">
+                        <input id="calculer" type="button" name="btn_calculer" value="Calcul de la rémunération" /> 
+                        <input type="reset" name="btn_reset" value="Reset" />
+                    </p>
+            </form>
+        </section>
+        <div id="vide"></div>
+        <footer><p>&copy;2018 Nolark - Créé par <a href="mailto:dylan.leflour25@gmail.com">Dylan LE FLOUR</a><p></footer>
+    </body>
+</html>

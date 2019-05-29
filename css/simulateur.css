@@ -1,0 +1,39 @@
+h1 {
+    margin: 0 auto 0 auto;
+    color: black;
+    clear: both;
+}
+
+#formulaire {
+    text-align: left;
+}
+
+#formulaire form {
+    clear: both;
+    margin: 0 5% auto 5%;
+}
+
+#formulaire form fieldset {
+    float: left;
+}
+
+#coordo {
+    text-align: right;
+    margin-right: 50px;
+}
+
+#coordo legend {
+    text-align: left;
+}
+
+#controles {
+    float: none;
+}
+
+div {
+    margin: 1em 0px;
+}
+
+.input-change {
+    display: inline;
+}
